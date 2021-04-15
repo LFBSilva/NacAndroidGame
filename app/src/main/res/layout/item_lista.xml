@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:maxHeight="100dp">
+
+
+    <ImageView
+        android:id="@+id/logolista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/tamanho_padrao"
+        android:maxHeight="@dimen/tamanho_padrao"
+        android:minWidth="@dimen/tamanho_padrao"
+        android:minHeight="@dimen/tamanho_padrao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_image_24" />
+
+    <TextView
+        android:id="@+id/jogolista"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxHeight="@dimen/tamanho_padrao"
+        android:minHeight="@dimen/tamanho_padrao"
+        android:padding="@dimen/paddin_padrao"
+        android:text="Nome"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/plataformalista"
+        app:layout_constraintStart_toEndOf="@+id/logolista"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/plataformalista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxHeight="@dimen/tamanho_padrao"
+        android:minHeight="@dimen/tamanho_padrao"
+        android:padding="@dimen/paddin_padrao"
+        android:text="Plataforma"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/notalista"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/notalista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxHeight="@dimen/tamanho_padrao"
+        android:minHeight="@dimen/tamanho_padrao"
+        android:padding="@dimen/paddin_padrao"
+        android:text="Nota"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

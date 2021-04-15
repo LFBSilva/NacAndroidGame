@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GamesLista</string>
+    <string name="nome_do_jogo">Nome do Jogo</string>
+    <string name="produtora">Produtora</string>
+    <string name="plataforma">Plataforma</string>
+    <string name="nota">Nota</string>
+    <string name="salvar">Salvar</string>
+    <string name="counter_strike">Counter-Strike: Global Offensive</string>
+    <string name="pummel_party">Pummel Party</string>
+    <string name="bloons_td">Bloons TD 6</string>
+    <string name="nfs_heat">Need For Speed: Heat</string>
+    <string name="lista_de_jogos">Lista de Jogos</string>
+    <string name="logo">Logo</string>
+    <string name="nome">Nome</string>s
+    <string name="button">Button</string>
+</resources>
